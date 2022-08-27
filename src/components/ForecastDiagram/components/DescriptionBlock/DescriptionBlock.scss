@@ -1,0 +1,23 @@
+.description-block {
+    &__title {
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0 0 3px;
+    }
+    &__values {
+        padding: 0 0 3px;
+    }
+    &__value {
+        font-size: 20px;
+        font-weight: 600;
+        &:first-child {
+            color: #000;
+            &::after {
+                content: '/';
+                color: #808080;
+                padding: 0 7px;
+            }
+        }
+        color: #808080;
+    }
+}
