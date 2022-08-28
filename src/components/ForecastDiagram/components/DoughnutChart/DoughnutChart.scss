@@ -8,7 +8,7 @@
     margin: 0 auto;
     max-width: 100%;
     position: relative;
-    width: 360px;
+    width: 300px;
     font-family: sans-serif;
     text-align: center;
 }
@@ -39,6 +39,9 @@
         top: 45%;
         transform: translateY(-50%);
         font-size: 0.8em;
+        @media (max-width: 767px) { 
+            right: -20px;
+        }
     }
     &::after {
         content: "%";
